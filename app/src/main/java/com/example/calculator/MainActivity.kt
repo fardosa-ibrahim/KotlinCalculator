@@ -79,13 +79,19 @@ class MainActivity : AppCompatActivity() {
        val num1=etNumOne.text
        if (num1 != null) {
            if (num1.isBlank()){
-               tvResult.error="Enter a num1"
+               btnDivision.error="Enter num2"
+               btnModulus.error="enter num2 "
+               btnAdd.error="enter num2"
+               btnSubtract.error="enter num2"
            }
        }
        val num2=etNumTwo.text
        if (num2!=null){
            if (num2.isBlank()){
-               tvResult.error="enter num2"
+               btnDivision.error="Enter num2"
+               btnModulus.error="enter num2 "
+               btnAdd.error="enter num2"
+               btnSubtract.error="enter num2"
            }
        }
 
